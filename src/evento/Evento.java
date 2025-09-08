@@ -1,3 +1,5 @@
+package evento;
+
 // Step 1
 // Creare una classe Evento che abbia le seguenti proprietà:
 //  - titolo

@@ -62,6 +62,10 @@ public class EventoMain {
         System.out.println("Posti disponibili: " + (e1.getNumeroPostiTotali() - e1.getNumeroPostiPrenotati()));
 
 
+        // Evento
+        System.out.println("Evento: " + e1.toString());
+
+
 
 
 

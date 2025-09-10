@@ -7,7 +7,9 @@ package evento;
 
 // Aggiungere questi attributi nel costruttore e implementarne getter e setter.
 
-// Aggiungere i metodi per restituire data e ora formattata e prezzo formattato (##,##€) Fare l’ override del metodo toString() in modo che venga restituita una stringa del tipo: data e ora formattata - titolo - prezzo formattato
+// Aggiungere i metodi per restituire data e ora formattata e prezzo formattato (##,##€) 
+
+// Fare l’ override del metodo toString() in modo che venga restituita una stringa del tipo: data e ora formattata - titolo - prezzo formattato
 
 // Testare la classe Concerto, utilizzando TUTTI i suoi metodi.
 
@@ -57,7 +59,7 @@ public class Concerto extends Evento {
 
     // Metodo per restituire il prezzo formattato
     public String getPrezzoFormattato() {
-        return String.format("%.2fEuro", prezzo);
+        return String.format("%.2f Euro", prezzo);
     }
 
 
